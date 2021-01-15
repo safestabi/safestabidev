@@ -1,0 +1,91 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/banner.jpg') no-repeat center center ;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;gi
+    height: px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    
+}
+
+.header2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/banner.jpg') no-repeat center center ;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 500px;
+    right: 0;
+    width: 100%;
+    
+}
+
+footer {
+    background-color: #181818;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 100px;
+}
+
+.fa-facebook-square {
+    color: #3a9efd;
+}
+
+.fa-facebook-square:hover {
+    color: #1a1b4c;
+    transition: all 0.5s;
+}
+
+.fa-instagram {
+    color: #3a9efd;
+}
+
+.fa-instagram:hover {
+    color:#1a1b4c;
+    transition: all 0.5s;
+}
+ 
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+.btn-material {
+    color: #1D9AF2;
+    background-color: #fff;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 10px 18px 10px 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    text-decoration: none;
+  
+    box-shadow: 0 0 4px #999;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.btn-material:hover{
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+    color: white;
+}
+  
+.btn-material:active{
+    background-color: #292d3e;
+    background-size: 100%;
+    transition: background 0s;
+}
+ 
+.card-proflie {
+    width: 398px;
+}
+
+@media only screen and (max-width: 441px){
+    .card-proflie {
+        width: 298px;
+        margin: 0px;
+    }
+}
