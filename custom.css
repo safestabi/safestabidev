@@ -1,24 +1,31 @@
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/banner.jpg') no-repeat center center ;
+    background: url('img/Wave-10s-1531px.svg');
     background-size: cover;
-    padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 500px;
-    position: absolute;
-    right: 0; 
+    height: 120vh;
+    right: 0;
     width: 100%;
+    position: relative;
+    overflow: hidden;
     
 }
 
 .header2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/banner.jpg') no-repeat center center ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/networking2.jpg') no-repeat center center;
     background-size: cover;
-    padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 500px;
+    height: 100vh;
     right: 0;
     width: 100%;
+    position: relative;
+    overflow: hidden;
     
+    
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
 }
 
 footer {
@@ -33,7 +40,7 @@ footer {
 }
 
 .fa-facebook-square:hover {
-    color: #1a1b4c;
+    color: #00ffff;
     transition: all 0.5s;
 }
 
@@ -42,7 +49,7 @@ footer {
 }
 
 .fa-instagram:hover {
-    color:#1a1b4c;
+    color:#00ffff;
     transition: all 0.5s;
 }
  
@@ -87,5 +94,65 @@ html:focus-within {
     .card-proflie {
         width: 298px;
         margin: 0px;
+    }
+}
+
+.shortcut-link {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px){
+    .container-sm {
+        width: 720px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .col-header {
+        text-align: center; 
+    }
+
+}
+
+@media only screen and (min-width: 992 px){
+    .col-header {
+        margin-top: 200px;
+        padding-top: 50px;
+    }
+}
+
+.link-light {
+    color: #f8f9fa;
+}
+
+.link-light:hover {
+    color: #ff00ff;
+    transition: all 0.5s;
+}
+
+.active-ul {
+    background: #3a9efd;
+}
+
+
+
+.view,body,html {
+    height:100%
+}
+.navbar-pageC {
+    background-color:rgba(0,0,0,.2)
+}
+.page-footer,.top-nav-collapse {
+    background-color:#1C2331
+}
+@media only screen and (max-width:768px){
+    .navbar-pageC{
+        background-color:#181818;
+    }
+}   
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar-pageC:not(.top-nav-collapse) {
+        background: #181818!important;
     }
 }
