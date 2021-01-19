@@ -1,5 +1,5 @@
 header {
-    background: url('img/Wave-10s-1531px.svg');
+    background: url('img/Wave-10s-1531px.svg') no-repeat center center;
     background-size: cover;
     padding-bottom: 8rem;
     height: 120vh;
@@ -32,7 +32,14 @@ footer {
     background-color: #181818;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    height: 100px;
+    height: 60px;
+}
+
+.cover-footer {
+    background-color: #232323;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
 }
 
 .fa-facebook-square {
@@ -40,7 +47,7 @@ footer {
 }
 
 .fa-facebook-square:hover {
-    color: #00ffff;
+    color:#2e7cc7;
     transition: all 0.5s;
 }
 
@@ -49,7 +56,7 @@ footer {
 }
 
 .fa-instagram:hover {
-    color:#00ffff;
+    color:#2e7cc7;
     transition: all 0.5s;
 }
  
@@ -60,7 +67,7 @@ html:focus-within {
 .btn-material {
     color: #1D9AF2;
     background-color: #fff;
-    border: 1px solid #1D9AF2;
+    border: 1px solid;
     border-radius: 4px;
     padding: 10px 18px 10px 15px;
     cursor: pointer;
@@ -75,9 +82,8 @@ html:focus-within {
 }
 
 .btn-material:hover{
-    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
-    center/15000%;
-    color: white;
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)center/15000%;
+    color: #f8f9fa;
 }
   
 .btn-material:active{
@@ -90,10 +96,21 @@ html:focus-within {
     width: 398px;
 }
 
+.indent {
+    text-indent: 40px;
+}
+
 @media only screen and (max-width: 441px){
     .card-proflie {
         width: 298px;
-        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        height: 130vh;
+    }
+    .indent {
+        text-indent: 20px;
     }
 }
 
@@ -101,15 +118,18 @@ html:focus-within {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 796px){
     .container-sm {
-        width: 720px;
+        width: 768px;
     }
 }
 
 @media only screen and (max-width: 992px){
     .col-header {
         text-align: center; 
+    }
+    header {
+        height: 150vh;
     }
 
 }
@@ -122,11 +142,11 @@ html:focus-within {
 }
 
 .link-light {
-    color: #f8f9fa;
+    color: #bfbfbf;
 }
 
 .link-light:hover {
-    color: #ff00ff;
+    color: #fdf9da;
     transition: all 0.5s;
 }
 
@@ -134,17 +154,18 @@ html:focus-within {
     background: #3a9efd;
 }
 
-
-
 .view,body,html {
     height:100%
 }
+
 .navbar-pageC {
     background-color:rgba(0,0,0,.2)
 }
+
 .page-footer,.top-nav-collapse {
     background-color:#1C2331
 }
+
 @media only screen and (max-width:768px){
     .navbar-pageC{
         background-color:#181818;
@@ -156,3 +177,33 @@ html:focus-within {
         background: #181818!important;
     }
 }
+
+.btn-2 {
+    background-image: linear-gradient(to right, #ff00ff 0%,  #00ffff 100%);
+}
+
+.btn-safe:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #f8f9fa;
+    
+}
+
+.btn-safe {
+    flex: 1 1 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #f8f9fa;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
