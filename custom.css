@@ -141,12 +141,19 @@ html:focus-within {
     }
 }
 
+.link-dark {
+    color: #000000;
+}
+
+.link-dark:hover {
+    color: #5e5e5e;
+}
 .link-light {
     color: #bfbfbf;
 }
 
 .link-light:hover {
-    color: #fdf9da;
+    color: #bdbdbd;
     transition: all 0.5s;
 }
 
