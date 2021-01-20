@@ -2,7 +2,7 @@ header {
     background: url('img/Wave-10s-1531px.svg') no-repeat center center;
     background-size: cover;
     padding-bottom: 8rem;
-    height: 120vh;
+    height: 100vh;
     right: 0;
     width: 100%;
     position: relative;
@@ -18,9 +18,18 @@ header {
     right: 0;
     width: 100%;
     position: relative;
+    overflow: hidden;  
+}
+
+.header3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/technology2.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 8rem;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+    position: relative;
     overflow: hidden;
-    
-    
 }
 
 .navbar {
@@ -93,7 +102,7 @@ html:focus-within {
 }
  
 .card-proflie {
-    width: 398px;
+    width: 300px;
 }
 
 .indent {
@@ -107,7 +116,7 @@ html:focus-within {
         margin-right: auto;
     }
     header {
-        height: 130vh;
+        height: 100vh;
     }
     .indent {
         text-indent: 20px;
