@@ -32,6 +32,17 @@ header {
     overflow: hidden;
 }
 
+.header4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/tesla3.jpg') no-repeat center bottom;
+    background-size: cover;
+    padding-bottom: 8rem;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
 .navbar {
     background-color: transparent;
     background: transparent;
@@ -127,9 +138,9 @@ html:focus-within {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 796px){
+@media only screen and (min-width: 845px){
     .container-sm {
-        width: 768px;
+        width: 820px;
     }
 }
 
