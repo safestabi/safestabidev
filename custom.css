@@ -1,4 +1,8 @@
-header {
+.mt-e {
+    margin-top: 30px;
+}
+
+.header {
     background: url('img/Wave-10s-1531px.svg') no-repeat center center;
     background-size: cover;
     padding-bottom: 8rem;
@@ -8,6 +12,16 @@ header {
     position: relative;
     overflow: hidden;
     
+}
+
+@media only screen and (max-width: 992px){
+    .header {
+        height: 125vh;
+        
+    }
+    .mt-e {
+        margin-top: 20px;
+    }
 }
 
 .header2 {
@@ -34,6 +48,28 @@ header {
 
 .header4 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/tesla3.jpg') no-repeat center bottom;
+    background-size: cover;
+    padding-bottom: 8rem;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/logistic2.jpg') no-repeat center bottom;
+    background-size: cover;
+    padding-bottom: 8rem;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('img/grab.jpg') no-repeat center top;
     background-size: cover;
     padding-bottom: 8rem;
     height: 100vh;
@@ -239,5 +275,23 @@ html:focus-within {
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.order1 {
+    order: 2;
+}
+
+.order2 {
+    order: 1;
+}
+
+@media only screen and ( max-width:768px ){
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 2;
+    }
 }
 
